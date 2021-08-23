@@ -1,0 +1,393 @@
+/* apply for the whole project */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+/* Fixed Header Main*/
+header {
+    position: sticky;
+    top: 0;
+    z-index: 10000;
+    width: auto;
+    background-color: white;
+}
+
+.fixed-header {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 10vh;
+}
+
+.header-logo {
+    height: 45px;
+    width: 45;
+    cursor: pointer;
+}
+
+.ul-no-points {
+    list-style-type: none;
+}
+
+/* Contact info*/
+.contact-info {
+    display: flex;
+    align-items: center;
+}
+
+/* Program info*/
+.program-info {
+    display: flex;
+    align-items: center;
+}
+
+/* Location info*/
+.location-info {
+    display: flex;
+    align-items: center;
+}
+
+/*Navbar Container*/
+.nav-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 10%;
+    margin-left: 10%;
+    position: sticky;
+}
+
+/* Ecoplast Logo*/
+.ecoplast-logo {
+    height: 100px;
+    width: 100px;
+    cursor: pointer;
+}
+
+/* Nav Links */
+.main-nav {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.nav-container {
+    height: 10vh;
+    margin: 0;
+
+}
+.nav-links {
+    list-style-type: none;
+    padding: 5px 10px;
+    margin: 5px 10px;
+}
+
+.nav-li {
+    display: inline;
+    padding: 5px 20px;
+    margin: 0px 10px;
+    
+}
+
+.nav-li a:hover {
+    border: 1px solid white;
+    border-radius: 10px;
+    transition: all .4s ease;
+    -webkit-transition: all 1s ease;
+}
+
+.nav-li a {
+    text-decoration: none;
+    color: white;
+    padding: 5px 20px;
+    margin: 5px 10px;
+    border-bottom: 1px solid transparent;
+    border-top: 1px solid transparent;
+    border-left: 1px solid transparent;
+    border-right: 1px solid transparent;
+}
+
+/* Nav Flags */
+.nav-flag {
+    width: 50px;
+    height: 30px;
+    cursor: pointer;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+/* Hero box Container */
+.hero-box-container {
+    background-image: url("./images/coverEco5.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
+}
+
+.title {
+    margin-left: 10%;
+    margin-right: 10%;
+    position: relative;
+    top: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.title-h1 {
+    font-size: 40px;
+    color: white;
+}
+
+.title-h2 {
+    font-size: 30px;
+    color: white;
+    padding: 20px 0px;
+}
+
+.title-button {
+    border: 2px solid #29bf12;
+    border-radius: 5px;
+    background-color: #29bf12;
+    padding: 5px 10px;
+}
+
+.title-button:hover{
+    box-shadow: 0 0 10px #29bf12, 0 0 40px #29bf12, 0 0 80px #29bf12;
+}
+
+.button-a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Service box Container */
+.service-box-container {
+    margin: 5% 10%;
+}
+
+.service-container {
+    display: grid;
+    grid-template-columns: [col-start] 1fr [col-2] 1fr [col-3] 1fr [col-end];
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "title title title"
+    "iron aluminium copper"
+    "papper cardboard plastic";
+}
+
+.small-service-container {
+    padding: 20px 0;
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.small-service-info {
+    width: 250px;
+    padding: 15px 0px;
+}
+
+.small-service-info-h5 {
+    padding: 5px 0px;
+    color: #00cd4f;
+}
+
+.small-service-details {
+    color: #00cd4f;
+}
+
+.service-photo {
+    height: 200px;
+    width: 250px;
+    background-size: cover;
+    background-position: center;
+}
+
+.service-title {
+    grid-area: title;
+    display: grid;
+    justify-content: center;
+}
+
+.container-iron {
+    grid-area: iron; 
+}
+
+.container-aluminum {
+    grid-area: aluminium;
+}
+
+.container-copper {
+    grid-area: copper;
+}
+
+.container-papper {
+    grid-area: papper;
+}
+
+.container-cardboard {
+    grid-area: cardboard;
+}
+
+.container-plastic {
+    grid-area: plastic;
+}
+
+/* Message Section */
+.message-section {
+    background-image: url('./images/grass-review-blur-dark.png');
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.message-section-h1 {
+    color: white;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.message-button {
+    border: 2px solid #29bf12;
+    border-radius: 5px;
+    background-color: #29bf12;
+    padding: 5px 10px;
+    margin: 10px 0px;
+}
+
+.message-button:hover {
+    box-shadow: 0 0 10px #29bf12, 0 0 40px #29bf12, 0 0 80px #29bf12;
+}
+
+.button-message {
+    text-decoration: none;
+    color: white;
+}
+
+/* About us Section */
+.about-us-section {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+    margin-bottom: 10%;
+    display: grid;
+    grid-template-columns: [col-start] 1fr [col-2] 1fr [col-eng];
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "first second";
+    column-gap: 25px;
+}
+
+.first-info-container {
+    grid-area: first;
+    width: 500px;
+    padding: 0px 20px;
+}
+
+.second-info-container {
+    grid-area: second;
+    width: 500px;
+    padding: 0px 20px;
+}
+
+
+.about-us-small-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 30px 0px;
+}
+
+.about-h4-subtitle {
+    color: #00cd4f;
+    padding: 5px 0px;
+    margin: 5px 0px;
+}
+
+.about-p-color {
+    color: #00cd4f;
+}
+
+.about-span-color {
+    color: black;
+}
+
+.about-p-text {
+    padding: 5px 0px;
+}
+
+.about-p-text-bold {
+    font-weight: bold;
+}
+
+/* Footer Section */
+footer {
+    margin-top: 40px;
+    padding: 10px 0px;
+    height: 30vh;
+    background-color: #29bf12;
+}
+
+.footer-main-container {
+    margin-left: 10%;
+    margin-right: 10%;
+    display: grid;
+    grid-template-columns: [col-start] 1fr [col-2] 1fr [col-3] 1fr [col-4] 1fr [col-end];
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "first second third fourth"; 
+}
+
+.footer-first-container {
+    grid-area: first;
+}
+
+.footer-mini-logo-container {
+    display: flex;
+}
+
+.footer-second-container {
+    grid-area: second;
+}
+
+.footer-third-container {
+    grid-area: third;
+}
+
+.footer-fourth-container {
+    grid-area: fourth;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.footer-mini-logo {
+    height: 20px;
+    width: 20px;
+}
+
+.footer-a {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+.footer-first-word {
+    color: white;
+    font-size: 15px;
+}
+
+

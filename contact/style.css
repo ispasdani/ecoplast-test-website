@@ -1,0 +1,230 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Nav Links */
+.hero-box-container {
+    background-color: #29bf12;
+    height: 8vh;
+}
+
+.main-nav {
+    margin-left: 10%;
+    margin-right: 10%;
+    height: 8vh;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 8vh;
+}
+
+.nav-links {
+    list-style-type: none;
+    padding: 5px 10px;
+    margin: 5px 10px;
+}
+
+.nav-li {
+    display: inline;
+    padding: 5px 20px;
+    margin: 0px 10px;
+    
+}
+
+.nav-li a:hover {
+    border: 1px solid white;
+    border-radius: 10px;
+    transition: all .4s ease;
+    -webkit-transition: all 1s ease;
+}
+
+.nav-li a {
+    text-decoration: none;
+    color: white;
+    padding: 5px 20px;
+    margin: 5px 10px;
+    border-bottom: 1px solid transparent;
+    border-top: 1px solid transparent;
+    border-left: 1px solid transparent;
+    border-right: 1px solid transparent;
+}
+
+/* Nav Flags */
+.nav-flag {
+    width: 50px;
+    height: 30px;
+    cursor: pointer;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+/* Ecoplast Logo*/
+.ecoplast-logo {
+    height: 70px;
+    width: 70px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+/*////////MAIN CONTACT FORM SECTION////////////*/
+main {
+    margin-left: 10%;
+    margin-right: 10%;
+    height: 70vh;
+}
+
+.contact-form {
+    margin: 5% 0%;
+    display: grid;
+    grid-template-columns: [col-start] 1fr [col-2] 1fr [col-end];
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "container1 container2";
+    column-gap: 50px;
+}
+
+.form-container {
+    grid-area: container1;
+}
+
+.maprouter {
+    grid-area: container2;
+}
+
+.form-action-contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #e9ecef;
+    border-radius: 10px;
+}
+
+#name-input {
+    width: 386px;
+    height: 30px;
+    margin-top: 20px;
+    padding: 10px 0px;
+    border-radius: 10px;
+    border: none;
+}
+
+#name-input::placeholder {
+    padding-left: 10px;
+}
+
+#email-input {
+    width: 386px;
+    height: 30px;
+    margin: 10px 0px;
+    padding: 10px 0px;
+    border-radius: 10px;
+    border: none;
+}
+
+#email-input::placeholder {
+    padding-left: 10px;
+}
+
+#message-input {
+    width: 386px;
+    height: 250px;
+    padding: 10px 0px;
+    border-radius: 10px;
+    border: none;
+    background-color: white;
+}
+
+#message-input::placeholder {
+    padding-left: 10px;
+}
+
+#button-submit {
+    padding-top: 10px;
+    width: 386px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    padding: 10px 0px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    background-color: white;
+    box-shadow: inset 0 0 0 0 #29bf12;
+    transition: ease-out 0.5s;
+}
+
+#button-submit:hover {
+    box-shadow: inset 386px 0 0 0 #29bf12;
+}
+
+
+
+
+
+
+
+
+/* Footer Section */
+footer {
+    margin-top: 40px;
+    padding: 10px 0px;
+    height: 25vh;
+    background-color: #29bf12;
+}
+
+.footer-main-container {
+    margin-left: 10%;
+    margin-right: 10%;
+    display: grid;
+    grid-template-columns: [col-start] 1fr [col-2] 1fr [col-3] 1fr [col-4] 1fr [col-end];
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "first second third fourth"; 
+}
+
+.footer-first-container {
+    grid-area: first;
+}
+
+.footer-mini-logo-container {
+    display: flex;
+}
+
+.footer-second-container {
+    grid-area: second;
+}
+
+.footer-third-container {
+    grid-area: third;
+}
+
+.footer-fourth-container {
+    grid-area: fourth;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.footer-mini-logo {
+    height: 20px;
+    width: 20px;
+}
+
+.footer-a {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+.footer-first-word {
+    color: white;
+    font-size: 15px;
+}

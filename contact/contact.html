@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--styles-->
+    <link rel="stylesheet" href="./style.css">
+    <title>Contact Page</title>
+</head>
+<body>
+    
+    <!-- Header Box -->
+     <header>
+        <section class="hero-box-container">
+            <nav class="main-nav">
+                <div class="nav-container">
+                    <img src="../images/ecoLogo.svg" class="ecoplast-logo" alt="eco-logo">
+                    <ul class="nav-links">
+                        <li class="nav-li"><a href="../index.html">Acasa</a></li>
+                        <li class="nav-li"><a href="#">Servicii</a></li>
+                        <li class="nav-li"><a href="../aboutUs/aboutUs.html">Despre Noi</a></li>
+                        <li class="nav-li"><a href="#">Contact</a></li>
+                    </ul>
+                    <div class="nav-flags-container">
+                        <img src="../images/ro-flag.svg" class="nav-flag" alt="romanian-flag">
+                        <img src="../images/eng-flag.svg" class="nav-flag eng-flag" alt="english-flag">
+                    </div>
+                </div>
+            </nav>
+        </section>
+    </header>
+
+
+
+    <main>
+
+        <section class="contact-form">
+            <div class="form-container">
+                <form action="https://formsubmit.co/ispasdani14@gmail.com" class="form-action-contact" method="POST">
+                    <input type="hidden" name="_next" value="https://ecoplasthart.com/thankyou.html">
+                    <input type="text" name="Name" id="name-input" placeholder="Numele tau..." required>
+                    <input type="email" name="email" id="email-input" placeholder="Adresa ta de email" required>
+                    <!-- <input type="text" name="message" id="message-input" placeholder="Scrie mesajul aici..." required> -->
+                    <textarea id="message-input" name="message" rows="10" cols="50" placeholder="Scrie mesajul aici..."></textarea>
+                    <button id="button-submit" type="submit">Trimite</button>
+                </form>
+            </div>
+           <div class="mapouter"><div class="gmap_canvas"><iframe class="gmap_iframe" width="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=300&amp;height=300&amp;hl=en&amp;q=Colectare Valorificare Deseuri - Ecoplast Hart, Șoseaua Hunedoarei 13, Deva 330003, România&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe><a href="https://www.fnfgo.com/">Friday Night Funkin Mods</a></div><style>.mapouter{position:relative;text-align:right;width:100%;height:300px;}.gmap_canvas {overflow:hidden;background:none!important;width:100%;height:300px;}.gmap_iframe {height:300px!important;}</style></div>
+        </section>
+
+    </main>
+
+
+
+
+
+
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="footer-main-container">
+
+            <div class="footer-first-container">
+                <h5><a class="footer-a footer-first-word" href="#">Contact</a></h5>
+                <div class="footer-mini-logo-container">
+                    <img src="../images/callLogo.svg" class="footer-mini-logo" alt="call-logo">
+                    <p>0746152318</p>
+                </div>
+                <div class="footer-mini-logo-container">
+                    <img src="../images/email.svg" class="footer-mini-logo email-logo" alt="mail-logo">
+                    <p>ecoplast_hart@yahoo.com</p>
+                </div>
+            </div>
+
+            <div class="footer-second-container">
+                <h5><a class="footer-a footer-first-word" href="#">Servicii</a></h5>
+                <p>Reciclare Deseuri Feroase</p>
+                <p>Reciclare Deseuri Neferoase</p>
+                <p>Reciclare Deseuri Cupru</p>
+                <p>Reciclare Deseuri Hartie</p>
+                <p>Reciclare Deseuri Carton</p>
+                <p>Reciclare Deseuri Plastice</p>
+            </div>
+
+            <div class="footer-third-container">
+                <h5 class="footer-first-word">Informatii Utile</h5>
+                <p><a class="footer-a" href="#">Contact</a></p>
+                <p><a class="footer-a" href="#">Despre noi</a></p>
+                <p><a class="footer-a" href="#">Politica Cookies</a></p>
+                <p><a class="footer-a" href="#">Politica de Confidentialitate</a></p>
+                <p><a class="footer-a" href="#">Servicii</a></p>
+                <p><a class="footer-a" href="#">Info Fotografii</a></p>
+            </div>
+
+            <div class="footer-fourth-container">
+                <h5 class="footer-first-word">Urmareste-ne pe</h5>
+                <div fourth-container-logos>
+                    <img src="../images/instagramLogo.svg" class="footer-small-logo instagram-logo" alt="instagram-logo">
+                    <img src="../images/facebookLogo.svg" class="footer-small-logo facebook-logo" alt="facebook-logo">
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    
+    <script src="./app.js"></script>
+</body>
+</html>

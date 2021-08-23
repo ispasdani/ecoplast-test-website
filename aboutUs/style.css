@@ -1,0 +1,213 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Nav Links */
+.hero-box-container {
+    background-color: #29bf12;
+    height: 8vh;
+}
+
+.main-nav {
+    margin-left: 10%;
+    margin-right: 10%;
+    height: 8vh;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 8vh;
+}
+
+.nav-links {
+    list-style-type: none;
+    padding: 5px 10px;
+    margin: 5px 10px;
+}
+
+.nav-li {
+    display: inline;
+    padding: 5px 20px;
+    margin: 0px 10px;
+    
+}
+
+.nav-li a:hover {
+    border: 1px solid white;
+    border-radius: 10px;
+    transition: all .4s ease;
+    -webkit-transition: all 1s ease;
+}
+
+.nav-li a {
+    text-decoration: none;
+    color: white;
+    padding: 5px 20px;
+    margin: 5px 10px;
+    border-bottom: 1px solid transparent;
+    border-top: 1px solid transparent;
+    border-left: 1px solid transparent;
+    border-right: 1px solid transparent;
+}
+
+/* Nav Flags */
+.nav-flag {
+    width: 50px;
+    height: 30px;
+    cursor: pointer;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+/* Ecoplast Logo*/
+.ecoplast-logo {
+    height: 70px;
+    width: 70px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+/* ////////////////////MAIN SECTION ABOUT///////////////////// */
+.about-us-section {
+    height: 70vh;
+}
+
+.about-us-first-container {
+    margin: 5% 10%;
+    display: grid;
+    grid-template-columns: [col-start] 1fr [col-2] 1fr [col-end];
+    grid-template-rows: 400px;
+    grid-template-areas: 
+    "info image";
+    column-gap: 50px;
+}
+
+.about-us-small-container {
+    grid-area: info;
+    padding-bottom: 10px;
+    color: #4895ef;
+}
+
+.about-p-color {
+    padding-bottom: 10px;
+    color: #29bf12;
+}
+
+.about-span-color {
+    color: #1e96fc;
+}
+
+.about-p-text {
+    padding-bottom: 10px;
+    color: #1e96fc;
+}
+
+/* Second div in first div */
+.image-container {
+    grid-area: image;
+    background-image: url('../images/workers.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+
+/*///////////////SECTION 2///////////////*/
+.about-us-section-2 {
+    height: 70vh;
+}
+
+.image-container-2 {
+    grid-area: image2;
+    background-image: url('../images/trash.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.about-us-first-container-2 {
+    margin: 5% 10%;
+    display: grid;
+    grid-template-columns: [col-start] 1fr [col-2] 1fr [col-end];
+    grid-template-rows: 400px;
+    grid-template-areas: 
+    "image2 info2";
+    column-gap: 50px;
+}
+
+
+.about-us-small-container-2 {
+    grid-area: info2;
+    padding-bottom: 10px;
+    color: #4895ef;
+}
+
+
+
+
+
+/* Footer Section */
+footer {
+    margin-top: 40px;
+    padding: 10px 0px;
+    height: 25vh;
+    background-color: #29bf12;
+}
+
+.footer-main-container {
+    margin-left: 10%;
+    margin-right: 10%;
+    display: grid;
+    grid-template-columns: [col-start] 1fr [col-2] 1fr [col-3] 1fr [col-4] 1fr [col-end];
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "first second third fourth"; 
+}
+
+.footer-first-container {
+    grid-area: first;
+}
+
+.footer-mini-logo-container {
+    display: flex;
+}
+
+.footer-second-container {
+    grid-area: second;
+}
+
+.footer-third-container {
+    grid-area: third;
+}
+
+.footer-fourth-container {
+    grid-area: fourth;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.footer-mini-logo {
+    height: 20px;
+    width: 20px;
+}
+
+.footer-a {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+.footer-first-word {
+    color: white;
+    font-size: 15px;
+}
+
+
+

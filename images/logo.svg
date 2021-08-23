@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="119" height="86" viewBox="0 0 119 86">
+  <g id="Group_1" data-name="Group 1" transform="translate(1727 116)">
+    <g id="recycling_black_24dp_1_" data-name="recycling_black_24dp (1)" transform="translate(-1699.868 -116)">
+      <rect id="Rectangle_2" data-name="Rectangle 2" width="68" height="68" transform="translate(-0.132)" fill="none"/>
+      <path id="Path_1" data-name="Path 1" d="M14.482,16.556l4.042-6.7,2.911-4.833a2.833,2.833,0,0,1,4.861,0l4.183,6.953L27,17.8l-2.826,4.579Zm45.081,16.45-4.522-7.518L45.261,31.14,51.508,41.57H54.7a5.653,5.653,0,0,0,5.059-3.137,5.579,5.579,0,0,0,.594-2.515A5.925,5.925,0,0,0,59.563,33.006ZM43.4,55.7h4.24a5.653,5.653,0,0,0,5.059-3.137l4.1-8.168H43.4V38.743L32.09,50.049,43.4,61.354ZM26.438,44.4H14.284L11.91,48.381a4.878,4.878,0,0,0-.17,4.664h0a4.789,4.789,0,0,0,4.3,2.657h10.4Zm-10.966-7.49,4.89,2.939L16.489,24.329,1,28.2l4.8,2.883-1.159,1.95a5.617,5.617,0,0,0-.2,5.427l4.607,9.214ZM46.279,10.875,42.6,4.742A5.728,5.728,0,0,0,37.743,2H27.766l8.818,14.7-4.861,2.911L47.24,23.481,51.112,7.964Z" transform="translate(0.873 3.653)" fill="#2e9b00" stroke="#036403" stroke-width="1"/>
+    </g>
+    <text id="ECOPLAST_HART" data-name="ECOPLAST HART" transform="translate(-1727 -33)" font-size="14" font-family="Helvetica-Bold, Helvetica" font-weight="700"><tspan x="0" y="0">ECOPLAST HART</tspan></text>
+  </g>
+</svg>
